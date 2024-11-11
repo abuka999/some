@@ -1,0 +1,60 @@
+/* Default Light Theme */
+:root {
+    --primary-color: #007bff;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --card-bg-color: #f8f9fa;
+    --transition-duration: 0.3s;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .sidebar {
+    background-color: var(--card-bg-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    background-color: var(--card-bg-color);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+  }
+  
+  /* Dark Mode Theme */
+  .dark-mode {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --card-bg-color: #444444;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #1a73e8;
+  }
+  
+  .dark-mode .sidebar {
+    background-color: #555555;
+  }
+  
+  .dark-mode .card {
+    background-color: #666666;
+  }
+  
